@@ -1,0 +1,10 @@
+{
+  "name": "wine-drops",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scrape": "node scripts/scrape.mjs",
+    "build": "node scripts/build.mjs",
+    "daily": "node scripts/scrape.mjs && node scripts/build.mjs"
+  }
+}
